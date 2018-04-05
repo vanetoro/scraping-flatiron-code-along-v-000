@@ -18,6 +18,12 @@ class Scraper
     # end 
   
   end
+  
+  def get_course
+    self.get_page.ss(".post")
+  end
+  
+  
  
 end
 
