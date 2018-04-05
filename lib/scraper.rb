@@ -35,7 +35,7 @@ end
 
 Scraper.new.print_courses
 
-binding.pry
+
 
     def print_courses
     self.make_courses
